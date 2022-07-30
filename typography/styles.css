@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box; /* para no añadir las medidas por default del navegador */
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif; /* los nombres con espacios deben ir en comillas en css */
+}
+
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+header h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+p {
+  margin: 0;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+  /* La propiedad clear CSS establece si un elemento debe moverse debajo de los elementos flotantes que lo preceden. La propiedad clear se aplica a elementos flotantes y no flotantes. */
+  clear: right; 
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.right {
+  float: right; /* se utiliza para colocar un elemento a la izquierda o a la derecha de su contenedor */
+}
+
+.lg {
+  height: 10px;
+}
+
+.lg, .md {
+  background-color: black;
+  border: 0;
+}
+
+.sm-text {
+  font-size: 0.85rem;
+}
+
+.calories-info h1 {
+  margin: -5px -2px;
+  overflow: hidden; /* para evitar el desbordamiento, lo mantiene dentro de la caja */
+}
+
+.calories-info span {
+  font-size: 1.2em;
+  margin-top: -7px;
+}
+
+.md {
+  height: 5px;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+/* 
+el pseudo-selector :not selecciona todos los elementos que no coincidan con la regla CSS dada.
+En este caso, excluye a los elementos con la clase .no-divider
+*/
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
