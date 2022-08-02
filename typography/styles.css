@@ -80,3 +80,13 @@ En este caso, excluye a los elementos con la clase .no-divider
 .daily-value p:not(.no-divider) {
   border-bottom: 1px solid #888989;
 }
+
+.dbl-indent {
+  margin-left: 2em;
+}
+
+.note {
+  font-size: 0.6rem;
+  padding: 0 8px;
+  text-indent: -8px; /* La propiedad CSS text-indent establece la longitud del espacio vacío (sangría) que se coloca antes de las líneas de texto en un bloque. */
+}
