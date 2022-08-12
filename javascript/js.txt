@@ -1,0 +1,24 @@
+- lenguage interpretado
+- isomorfismo: frontend, backend, base de datos
+- ecmascript: llevar un orden, un estándar.
+- no es obligatorio el ";" al final. 
+
+- var : ambito global
+- let : amabito local 
+
+- for .. in : recorrer arreglos
+- for .. of : recorrer objetos
+
+- los archivos de js, ideal que estén en el head. Indicar que el js corra cual el html termine de cargar. Aunque hay situaciones en que debe ir en otro lado. 
+
+- los objetos en js serían como los diccionarios en python. {key:value}
+
+- falsys: representación de falso en ciertos valores del lenguahe
+0, null, undefined, NaN, '' (string vacío)
+
+- hoisting de js en var lo que hace es subir las declaraciones de las variables antes que todo. 
+En caso de let y const, el hoisting no está permitido
+
+- 
+
+- los console.log dentro de una función no se imprimirán hasta que se llame a esa función. 
